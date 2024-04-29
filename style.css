@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background:#FFF7FB;
+    }
+    
+    .body{
+        background:#FFF7FB;
+    }
+    .container {
+        width: 656px;
+        margin: 0 auto;
+        padding: 0 20px;
+        
+       }
+       
+        .first-section-image{
+            width: 656px;
+            height: 300px;
+            gap: 0px;
+            border-radius: 12px 0px 0px 0px;
+            opacity: 0px;}
+
+        .card{
+           
+            width: 656px; }
+
+ .card-content{
+     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+            }
+.h1{
+    font-family: Young Serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #312E2C;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+        
+
+ .h2{
+Font: Young Serif;
+font-weight: 400;
+Size: 28px;
+Line-height: 28px;
+color: #854632;
+background:#ffff;
+
+ }   
+
+.h3 {
+color:#7A284E;
+font-family: Outfit;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+
+}
+
+   
+ 
+.ul{
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #5F564D;
+    background: #ffff;
+}
+
+.section-1-content{
+    width: 656px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffff;
+
+}
+.section-2-content{
+    width: 656px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFF7FB;
+    align-items: flex-start;
+}
+   
+   .section-3-content{
+    width: 656px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background: #ffff;}
+   
+    .section-4-content{
+        width: 656px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background: #ffff;}
+ .section-5-content{
+    width: 656px;
+     display: flex;
+     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ffff;}
+    
+.table, th, td {
+    border: 1px dotted black;
+    padding: 5px;
+    border-spacing: 15px;
+    background: #ffff;
+    border-left: none;
+    border-right: none;
+  }
+  @media screen and (max-width:375px) {
+    .container {
+        width: 656px;
+        margin: 0 auto;
+        padding: 0 20px;
+        
+       }
+       
+        .first-section-image{
+            width: 375px;
+            height: 171px;
+            gap: 0px;
+            border-radius: 12px 0px 0px 0px;
+            opacity: 0px;}
+
+        .card{
+           
+            width: 375px; }
+            .section-1-content{
+                width: 375px;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: center;
+                flex-direction: column;
+                background-color: #ffff;
+            
+            }
+            .section-2-content{
+                width: 375px;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                background-color: #FFF7FB;
+                align-items: flex-start;
+            }
+               
+               .section-3-content{
+                width: 375px;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                background: #ffff;}
+               
+                .section-4-content{
+                    width: 375px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: flex-start;
+                    justify-content: center;
+                    flex-direction: column;
+                    background: #ffff;}
+             .section-5-content{
+                width: 375px;
+                 display: flex;
+                 flex-wrap: wrap;
+                align-content: center;
+                justify-content: center;
+                flex-direction: column;
+                background: #ffff;}
+                
+
+  }
